@@ -1,0 +1,18 @@
+%%-*- mode: erlang -*-
+{application, erloku,
+ [
+  {description, "erloku"},
+  {vsn, "1"},
+  {modules, []},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  inets,
+                  crypto,
+                  mochiweb,
+                  webmachine
+                 ]},
+  {mod, { erloku_app, []}},
+  {env, []}
+ ]}.
